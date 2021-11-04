@@ -194,7 +194,7 @@ function givAway(){
     <button>legg til bilde</button>
     <button type= "checkbox">jeg vil være anonym og vil bruke "takontakt" funksjon</button>
     <button type= "checkbox">Jeg vil at kunden skal kunne se min informasjon</button>
-    <button>legg ut annonse</button>
+    <button onclick = "meinPage()">legg ut annonse</button>
 
     `;
     show();

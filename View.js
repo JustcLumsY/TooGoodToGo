@@ -76,12 +76,12 @@ function accountPage(){
     html = /*html*/`
     <h1>Too Good To Go</h1>
     <div id="mainFrame">  
-    <button onklick = ${mainPage()} class="logout mainBtns">logg ut</button>
-
+        <button onklick = ${mainPage()} class="logout mainBtns">logg ut</button>
+        <button onclick ="foodPage()" class="findFood mainBtns">Finn mat</button>
         <button onklick = ${givAway()} class="giveFood mainBtns">Gi ut mat</button>
+    <div>
         <div class="userInfo">
         </div>
-            <button onclick ="foodPage()" class="findFood mainBtns">Finn mat</button>
         
             <div class="userInfo">
                 <button onclick="editUserInfo()" class ="edit mainBtns">Rediger</button>
@@ -133,7 +133,7 @@ function foodPage(){
 function foodPageAd() {
     html = /*html*/`
     <h1>Too Good To Go</h1>
-    <div id="FoodMainFrame">
+    <div id="foodMainFrame">
         <div id="foodPageInformation">1</div>
     </div>
     `;
@@ -183,17 +183,17 @@ function givAway(){
     <div class="frames" id="innerFrame">
     
     <div type="text">Tittel:</div>
-    <div>Beskrivelse:</div>
-    <div>allergyID:</div>
-    <div>Adresse:</div>
-    <div>postnr:</div>
-    <div>Dato fra:</div>
-    <div>Dato til:</div>
-    <div>Tlf:</div>
+    <div type="text">Beskrivelse:</div>
+    <div type="text">allergyID:</div>
+    <div type="address">Adresse:</div>
+    <div type="nomber">postnr:</div>
+    <div type="date">Dato fra:</div>
+    <div type="date">Dato til:</div>
+    <div type="tel">Tlf:</div>
     
     <button>legg til bilde</button>
-    <button>jeg vil være anonym og vil bruke "takontakt" funksjon</button>
-    <button>Jeg vil at kunden skal kunne se min informasjon</button>
+    <button type= "checkbox">jeg vil være anonym og vil bruke "takontakt" funksjon</button>
+    <button type= "checkbox">Jeg vil at kunden skal kunne se min informasjon</button>
     <button>legg ut annonse</button>
 
     `;

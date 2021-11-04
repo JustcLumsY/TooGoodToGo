@@ -1,5 +1,6 @@
 
-const model = {
+const model = 
+{
     
     app : {
         currentpage: '', 

@@ -1,0 +1,166 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#photo1 
+{
+    height: 55vh;
+    width: 25vw;
+}
+
+body 
+{
+    background: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userInfo
+{
+ border: 2px solid black;
+ height: 25vh;
+  width: 25vw;
+ 
+ 
+ 
+}
+
+.giveFood
+{
+    
+}
+
+#mainFrame
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items:center;
+    border: 1px solid black;
+    height: 85vh;
+    width: 80vw;
+}
+
+
+.frames 
+{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 55vh;
+    width: 25vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    float: right;
+}
+#zipFrame
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 85vh;
+    width: 80vw;
+}
+.zipCodeframe{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    width:400px;
+    height:50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#foodGroupFrame{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-evenly;
+
+    margin-top: 60px;
+    height: 60vh;
+    width: 60vw;
+    border: 2px solid black;
+}
+.FoodGroupPhotoFrame{
+    width: 15vw;
+    height: 15vh;
+    margin: 20px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.FoodGroupPhotoFrame img{
+    width: 100%;
+    height: 100%;
+
+}
+#foodMainFrame{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border: 1px solid black;
+    height: 85vh;
+    width: 80vw;
+
+}
+#foodPageInformation{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 40vh;
+    width: 35vw;
+    display:flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    text-align: center;
+}
+#newUserInfo
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#newUserInfo h1{
+    color: black;
+}
+#userLoginInfo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    
+}
+.bruker 
+{
+    cursor: pointer;
+    position: inherit;
+    max-width: 50%;
+}
+
+.passord{
+    cursor: pointer;
+    position: inherit;
+    max-width: 50%;
+}
+
+h1 
+{
+    background-color: rgb(255, 255, 255);
+    color: lawngreen;
+    font-size: 50px;
+    text-align: center;
+}
+
+.mainBtns{
+    border-radius: 5px black;
+    padding: 5px;
+}
